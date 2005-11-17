@@ -16,12 +16,12 @@ Requires:	kdebase-core
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-A KDE little Kicker applet that allows selecting CD-ROM speed, eject & close
-CD-ROM tray, and mount & unmount disc.
+A KDE little Kicker applet that allows selecting CD-ROM speed, eject
+and close CD-ROM tray, and mount and unmount disc.
 
 %description -l pl
-Aplet do kontrolowania prêdko¶ci CD-ROM-u, wysuwania i zamykania szuflad 
-CDROM, montowania i odmontowania dysku z panelu KDE.
+Aplet do kontrolowania prêdko¶ci CD-ROM-u, wysuwania i zamykania
+szuflady CD-ROM-u, montowania i odmontowania p³ytki z panelu KDE.
 
 %prep
 %setup -q
