@@ -1,5 +1,5 @@
 Summary:	A KDE little Kicker applet that allows selecting CD-ROM speed
-Summary(pl):	Aplet do kontrolowania prêdko¶ci CD-ROM-u z panelu KDE
+Summary(pl.UTF-8):   Aplet do kontrolowania prÄ™dkoÅ›ci CD-ROM-u z panelu KDE
 Name:		kcdspeed
 Version:	0.8
 Release:	0.1
@@ -19,9 +19,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 A KDE little Kicker applet that allows selecting CD-ROM speed, eject
 and close CD-ROM tray, and mount and unmount disc.
 
-%description -l pl
-Aplet do kontrolowania prêdko¶ci CD-ROM-u, wysuwania i zamykania
-szuflady CD-ROM-u, montowania i odmontowania p³ytki z panelu KDE.
+%description -l pl.UTF-8
+Aplet do kontrolowania prÄ™dkoÅ›ci CD-ROM-u, wysuwania i zamykania
+szuflady CD-ROM-u, montowania i odmontowania pÅ‚ytki z panelu KDE.
 
 %prep
 %setup -q
