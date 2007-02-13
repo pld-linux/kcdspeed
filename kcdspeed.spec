@@ -1,5 +1,5 @@
 Summary:	A KDE little Kicker applet that allows selecting CD-ROM speed
-Summary(pl.UTF-8):   Aplet do kontrolowania prędkości CD-ROM-u z panelu KDE
+Summary(pl.UTF-8):	Aplet do kontrolowania prędkości CD-ROM-u z panelu KDE
 Name:		kcdspeed
 Version:	0.8
 Release:	0.1
