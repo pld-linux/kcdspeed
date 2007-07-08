@@ -8,6 +8,7 @@ Group:		X11/Applications
 Source0:	http://kcdspeed.riadoklan.sk/data/%{name}-%{version}.tar.gz
 # Source0-md5:	ead045707dfa8f28fdbdeb8224fd3130
 URL:		http://kcdspeed.riadoklan.sk/
+Patch0:		%{name}-ac_am.patch
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	kdelibs-devel >= 9:3.2.0
@@ -25,6 +26,7 @@ szuflady CD-ROM-u, montowania i odmontowania płytki z panelu KDE.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 cp -f /usr/share/automake/config.sub admin
